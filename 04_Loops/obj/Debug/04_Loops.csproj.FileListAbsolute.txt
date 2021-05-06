@@ -12,3 +12,5 @@ C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\04_
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\04_Loops\obj\Debug\04_Loops.csproj.CopyComplete
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\04_Loops\obj\Debug\04_Loops.dll
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\04_Loops\obj\Debug\04_Loops.pdb
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\04_Loops\bin\Debug\05_Classes.dll
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\04_Loops\bin\Debug\05_Classes.pdb
