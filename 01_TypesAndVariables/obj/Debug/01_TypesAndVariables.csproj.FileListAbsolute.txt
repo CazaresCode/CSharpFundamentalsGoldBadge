@@ -7,7 +7,6 @@ C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\01_
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\01_TypesAndVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\01_TypesAndVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\01_TypesAndVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\01_TypesAndVariables\obj\Debug\01_TypesAndVariables.csprojAssemblyReference.cache
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\01_TypesAndVariables\obj\Debug\01_TypesAndVariables.csproj.CoreCompileInputs.cache
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\01_TypesAndVariables\obj\Debug\01_TypesAndVariables.csproj.CopyComplete
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\01_TypesAndVariables\obj\Debug\01_TypesAndVariables.dll

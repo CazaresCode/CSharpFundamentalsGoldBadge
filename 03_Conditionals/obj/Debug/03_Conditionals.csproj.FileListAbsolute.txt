@@ -7,7 +7,6 @@ C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\03_
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\03_Conditionals\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\03_Conditionals\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\03_Conditionals\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\03_Conditionals\obj\Debug\03_Conditionals.csprojAssemblyReference.cache
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\03_Conditionals\obj\Debug\03_Conditionals.csproj.CoreCompileInputs.cache
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\03_Conditionals\obj\Debug\03_Conditionals.csproj.CopyComplete
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\03_Conditionals\obj\Debug\03_Conditionals.dll

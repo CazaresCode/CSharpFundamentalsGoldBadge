@@ -69,5 +69,14 @@ namespace _00_Challenges
 
             Console.WriteLine($"{userOne.FullName()} is {userOne.Age}!"); // This method is going to User.cs to public string FullName to look at the get { }, which contains   return $"{FirstName} {LastName}";   SO that it comes back to this place. THEN, it goes back for Age, which takes the userOne's BirthDate value and goes through the calucation. MUST have return so it comes back to this place. 
         }
+
+        // Write a method that takes in a string and returns the value as an integer.
+
+        [TestMethod]
+        public int ConvertStringToInt(string numberString)
+        {
+            return Convert.ToInt32(numberString);
+            
+        }
     }
 }

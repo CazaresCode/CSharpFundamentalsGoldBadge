@@ -61,7 +61,7 @@ namespace _07_StreamingContent_Repository
                 if (content is Movie)
                 {
                     // Load into our list
-                    allMovies.Add((content as Movie); //remember, you can do (Movie)movie
+                    allMovies.Add(content as Movie); //remember, you can do (Movie)movie
                 }
             }
             //return our list

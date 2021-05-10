@@ -16,7 +16,7 @@ namespace _03_Conditionals
             }
 
             int hoursSpendStudying = 1;
-            if (hoursSpendStudying < 15);
+            if (hoursSpendStudying < 15) ;
             {
                 Console.WriteLine("Are you even trying?");
             }
@@ -38,18 +38,18 @@ namespace _03_Conditionals
             string input = "7";
             int totalHours = int.Parse(input);
 
-                if(totalHours >= 8)
+            if (totalHours >= 8)
+            {
+                Console.WriteLine("You should be well rested.");
+            }
+            else
+            {
+                Console.WriteLine("You might be tired today.");
+                if (totalHours < 4)
                 {
-                    Console.WriteLine("You should be well rested.");
+                    Console.WriteLine("Yikes... Get some sleep!");
                 }
-                else
-                {
-                    Console.WriteLine("You might be tired today.");
-                    if(totalHours < 4)
-                    {
-                        Console.WriteLine("Yikes... Get some sleep!");
-                    }
-                }
+            }
         }
 
         [TestMethod]
@@ -57,17 +57,17 @@ namespace _03_Conditionals
         {
             int age = 7;
 
-            if(age > 17)
+            if (age > 17)
             {
                 Console.WriteLine("You're an adult");
             }
             else
             {
-                if(age > 6)
+                if (age > 6)
                 {
                     Console.WriteLine("You're a kid");
                 }
-                else if(age > 0) //needs ()
+                else if (age > 0) //needs ()
                 {
                     Console.WriteLine("You're too young to be on this computer");
                 }
@@ -76,12 +76,12 @@ namespace _03_Conditionals
                     Console.WriteLine("You're not even born yet");
                 }
             }
-            
-            if(age < 65 && age > 18)
+
+            if (age < 65 && age > 18)
             {
                 Console.WriteLine("Age is between 18 and 65");
             }
-            if(age == 55)
+            if (age == 55)
             {
                 Console.WriteLine("You're a senior ceitizen now!");
             }

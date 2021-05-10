@@ -7,7 +7,6 @@ C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\08_
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\08_Interfaces\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\08_Interfaces\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\08_Interfaces\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\08_Interfaces\obj\Debug\08_Interfaces.csprojAssemblyReference.cache
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\08_Interfaces\obj\Debug\08_Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\08_Interfaces\obj\Debug\08_Interfaces.csproj.CopyComplete
 C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\08_Interfaces\obj\Debug\08_Interfaces.dll

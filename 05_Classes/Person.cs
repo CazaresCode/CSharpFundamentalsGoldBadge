@@ -62,6 +62,16 @@ namespace _05_Classes
 
         public DateTime DateOfBirth { get; set; }
 
+        public int x;
+        public int y;
+        
+        public Person(int x, int y)
+        {
+            this.x = x;
+            this.x = y;
+        }
+
+
         // Using the class as a type
         public Vehicle Transport { get; set; }
     }

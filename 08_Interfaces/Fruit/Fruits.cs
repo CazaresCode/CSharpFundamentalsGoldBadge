@@ -80,9 +80,9 @@ namespace _08_Interfaces.Fruit
             }
         }
 
-        // Hardsetting property as false.
+        // Hardsetting property as false. Hard-code
         public bool IsPeeled { get; } = false;
-        public string Peel ()
+        public string Peel()
         {
             return "Who peels grapes?";
         }
@@ -110,7 +110,7 @@ namespace _08_Interfaces.Fruit
                 IsPeeled = true;
                 return "You peeled the apple.";
             }
-     
+
         }
     }
 }

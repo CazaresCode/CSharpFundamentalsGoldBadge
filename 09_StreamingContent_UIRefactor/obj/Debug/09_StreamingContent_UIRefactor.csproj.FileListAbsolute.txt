@@ -1,0 +1,10 @@
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\bin\Debug\09_StreamingContent_UIRefactor.exe.config
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\bin\Debug\09_StreamingContent_UIRefactor.exe
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\bin\Debug\09_StreamingContent_UIRefactor.pdb
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\bin\Debug\07_StreamingContent_Repository.dll
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\bin\Debug\07_StreamingContent_Repository.pdb
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\obj\Debug\09_StreamingContent_UIRefactor.csprojAssemblyReference.cache
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\obj\Debug\09_StreamingContent_UIRefactor.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\obj\Debug\09_StreamingContent_UIRefactor.csproj.CopyComplete
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\obj\Debug\09_StreamingContent_UIRefactor.exe
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\09_StreamingContent_UIRefactor\obj\Debug\09_StreamingContent_UIRefactor.pdb

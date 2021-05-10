@@ -8,7 +8,7 @@ namespace _00_Challenges
     {
         public double Add (double numOne, double numTwo) //This is a method
         {
-            return numOne + numTwo; ;
+            return numOne + numTwo; 
         }
 
         public double Subtract (double numOne, double numTwo)
@@ -32,8 +32,45 @@ namespace _00_Challenges
             c *= 100;
             return $"{c}%";
         }
+        public double Add(double[] numbers)
+        {
+            double total = 0;
+            foreach (double number in numbers)
+            {
+                total += number;
+            }
+            return total;
+        }
 
-        //how to find a prop that would allow to add more numbers to do the addition and the other ones. 
+        public double Sub(double [] numbers)
+        {
+            double total = 0;
+            for (int i = 0; i < numbers.Length; ++i)
+            {
+                if (i==0)
+                {
+                    total = numbers[i];
+                }
+                else
+                {
+                    total -= numbers[i];
+                }
+            }
+            return total;
+        }
+
+        //public double TestSub(double[] numbers)
+        //{
+        //    double total = 0;
+        //    foreach (double number in numbers)
+        //    {
+        //        total 
+
+        //        total -= number;
+        //    }
+        //    return total;
+        //}
+
 
 
         //Calculator Tests
@@ -43,7 +80,10 @@ namespace _00_Challenges
             Calculator calc = new Calculator();
             double totalSum = Add(2, 4);
             Assert.AreEqual(6, totalSum);
-        }
+            Assert.AreEqual(11, calc.Add(5, 6));
+            Assert.AreEqual(113, calc.Add(new double[] { 32, 12, 59, 10 }));
+
+        } 
 
         [TestMethod]
         public void Sub()
@@ -51,6 +91,13 @@ namespace _00_Challenges
             double totalSub = Subtract(10, 3);
             Assert.AreEqual(7, totalSub);
         }
+
+        //[TestMethod]
+        //public void TestSubMethod()
+        //{
+        //    Calculator calc = new Calculator();
+        //    Assert.AreEqual(1, calc.TestSub(new double[] { 5, 3, 1 }));
+        //}
 
         [TestMethod]
         public void Mul()
@@ -70,5 +117,7 @@ namespace _00_Challenges
         {
             //DO A TEST HERE
         }
+
+
     }
 }

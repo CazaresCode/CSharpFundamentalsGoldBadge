@@ -8,15 +8,22 @@ namespace _05_Classes
 {
     public class Calculator //REMEMBER TO ADD "public" WHEN YOU OPEN UP A NEW CLASS
     {
+
+        // write a method that takes in two numbers and returns the sum of those two numbers as a double.
+
+        // we pass the arguements
+
         public double GetSum(double numOne, double numTwo) //this is METHOD
         {
             double sumSolution = (numOne + numTwo);
             return sumSolution; //this is shorthand, meaning you don't really need the thing above for this case.
 
-            //subtraction
-            //mutilplication
-            //division
         }
+     
+
+        //subtraction
+        //mutilplication
+        //division
 
         public int CalculateAge(DateTime birthday)
         {

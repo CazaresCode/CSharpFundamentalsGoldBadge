@@ -49,10 +49,14 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FizzBuzzChallenge.cs" />
     <Compile Include="W2D2_Calculator.cs" />
     <Compile Include="W1D3Part2.cs" />
     <Compile Include="User.cs" />
     <Compile Include="W1D5Class.cs" />
+    <Compile Include="W3D1Challenge\IVehicles.cs" />
+    <Compile Include="W3D1Challenge\IVehiclesTest.cs" />
+    <Compile Include="W3D1Challenge\Vehicles.cs" />
     <Compile Include="Week1Challenges.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
