@@ -29,9 +29,14 @@ namespace _06_Inheritance
 
             joe.WhoAmI();
 
-            SalaryEmployee brian = new SalaryEmployee(3, 500000); 
-            brian.FirstName = "Brian";
-            brian.LastName = "Quinn";
+            SalaryEmployee brian = new SalaryEmployee(3, 500000)
+            {
+                FirstName = "Brian",
+                LastName = "Quinn"
+            };
+
+            Person me = new SalaryEmployee(3, 500000);
+            SalaryEmployee you = new Person();
 
             //In this case: people.Add(); is the syntax to add items to the list.
             List<Person> people = new List<Person>();

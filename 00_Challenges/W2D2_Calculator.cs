@@ -118,6 +118,17 @@ namespace _00_Challenges
             //DO A TEST HERE
         }
 
+        [TestMethod]
+        public void MyTestMethod()
+        {
+            int a = 7;
+            int b = 2;
+            int sum = a / b;
+
+            Console.WriteLine(sum);
+            Console.ReadLine();
+        }
+
 
     }
 }

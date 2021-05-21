@@ -47,18 +47,18 @@ namespace _04_Loops
             //4 Body of the loop - what gets executed each loop
 
                   //1             //2        //3
-            for (int i = 0; i < studentCount; i++)
+            for (int i = 0; i < 12; i++)
             {
                 //4
                 Console.WriteLine(i);
             }
 
             //you could also use a while loop to do the same thing
-            int e = 0;
-            while (e < studentCount)
-            {
-                Console.WriteLine(e++);
-            }
+            //int e = 0;
+            //while (e < studentCount)
+            //{
+            //    Console.WriteLine(e++);
+            //}
         }
 
 

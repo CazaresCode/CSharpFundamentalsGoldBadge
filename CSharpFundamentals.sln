@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Interfaces", "08_Interfa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_StreamingContent_UIRefactor", "09_StreamingContent_UIRefactor\09_StreamingContent_UIRefactor.csproj", "{820D0BD5-A460-4805-890B-E22287ABC289}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdGameConsole", "BirdGameConsole\BirdGameConsole.csproj", "{5075D501-0FF0-47F1-B848-FC244767374B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{820D0BD5-A460-4805-890B-E22287ABC289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820D0BD5-A460-4805-890B-E22287ABC289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820D0BD5-A460-4805-890B-E22287ABC289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5075D501-0FF0-47F1-B848-FC244767374B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5075D501-0FF0-47F1-B848-FC244767374B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5075D501-0FF0-47F1-B848-FC244767374B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5075D501-0FF0-47F1-B848-FC244767374B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

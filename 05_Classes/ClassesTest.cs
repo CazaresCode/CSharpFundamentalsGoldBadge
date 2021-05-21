@@ -22,7 +22,18 @@ namespace _05_Classes
             Console.WriteLine(firstVehicle.Model);
             Console.WriteLine(firstVehicle.Mileage);
             Console.WriteLine(firstVehicle.TypeOfVehicle);
+
+            int code = 17;
+            int quanitity = 55;
+            int temp = code;
+            code = quanitity;
+            quanitity = temp;
+
+            Console.WriteLine(code);
+            Console.WriteLine(quanitity);
+
         }
+
 
         [TestMethod]
         public void VehicleMethodsTests()

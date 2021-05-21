@@ -1,0 +1,2 @@
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\BirdGameConsole\obj\Debug\BirdGameConsole.csprojAssemblyReference.cache
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\BirdGameConsole\obj\Debug\BirdGameConsole.csproj.CoreCompileInputs.cache

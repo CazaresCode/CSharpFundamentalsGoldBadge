@@ -1,0 +1,8 @@
+
+WORK ON
+
+
+-create golden pistol
+
+-put it in the mines
+- how to add the rooms to a file?

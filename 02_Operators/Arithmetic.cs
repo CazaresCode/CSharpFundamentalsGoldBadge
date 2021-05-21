@@ -32,5 +32,17 @@ namespace _02_Operators
             int remainder = a % b;
             Console.WriteLine(remainder); // 7
         }
+        [TestMethod]
+        public void MyTestMethod()
+        {
+            for (int y = 1; y <= 5; y++)
+            {
+                for (int x = 1; x <= 12; x++)
+                {
+                    Console.WriteLine($" {x} * {y} = { x * y } ");
+                }
+            }
+        }
+
     }
 }
