@@ -1,5 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace _02_Operators
 {
@@ -41,6 +43,19 @@ namespace _02_Operators
                 {
                     Console.WriteLine($" {x} * {y} = { x * y } ");
                 }
+            }
+        }
+
+        [TestMethod]
+        public void Sum()
+        {
+            List<int> list = new List<int> { 1, 2, 3, 4, 5 };
+            list.Sum();
+
+
+            foreach (int num in list)
+            {
+                num.Sum();
             }
         }
 
