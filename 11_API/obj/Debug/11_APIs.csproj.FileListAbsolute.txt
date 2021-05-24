@@ -1,0 +1,12 @@
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\bin\Debug\11_API.exe.config
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\bin\Debug\11_API.exe
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\bin\Debug\11_API.pdb
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\obj\Debug\11_APIs.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\obj\Debug\11_API.exe
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\obj\Debug\11_API.pdb
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\obj\Debug\11_APIs.csprojAssemblyReference.cache
+C:\Users\alexa\Desktop\ElevenFiftyProjects\GoldBadge\w1d2\CSharpFundamentals\11_API\obj\Debug\11_APIs.csproj.CopyComplete

@@ -19,8 +19,11 @@ namespace _10_Async
             // Synchronously
             potato.Peel();
 
+            // Asynchonously  drop the fires.
+            // Async so I can do other things.
             var fries = kitchen.FryPotatoesAsync(potato);
 
+            // Synchronosuyly assemble a burger while fires are cooking. 
             var hamburger = kitchen.AssembleBurger();
 
             Console.WriteLine("Doing other stuff...");

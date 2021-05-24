@@ -14,7 +14,10 @@ namespace _10_Async
             if (potato.IsPeeled)
             {
                 PrettyPrint("Dropping in the fries.", 14);
-                await Task.Delay(10000); // await keyword means to let other things happen too. 
+                // await is local to the method.
+                await Task.Delay(5000); // await keyword means to let other things happen too. 
+                PrettyPrint("Fries are frying.", 14);
+                await Task.Delay(5000);
                 PrettyPrint("DING! Fries are done!", 14);
                 return new Fries(potato);
             }
