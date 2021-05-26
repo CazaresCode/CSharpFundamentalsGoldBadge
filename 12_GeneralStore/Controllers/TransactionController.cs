@@ -60,5 +60,57 @@ namespace _12_GeneralStore.Controllers
             return Ok(transaction);
         }
 
+        [HttpPut]
+        public async Task<IHttpActionResult> UpdateTransaction([FromUri] int id, [FromBody] Transaction newTransaction)
+        {
+            if (ModelState.IsValid)
+            {
+                // Sticky situation with the stock product calculations, hence the new up of Product and CUstomer object.
+                Product product = await _context.Products.FindAsync(newTransaction.ProductId);
+                if (product == null)
+                    return BadRequest("Invalid Product ID.");
+
+                Customer customer = await _context.Customers.FindAsync(newTransaction.CustomerId);
+                if (customer == null)
+                    return BadRequest("Invalid Product ID.");
+
+                Transaction oldTransaction = await _context.Transactions.FindAsync(id);
+                if (oldTransaction != null)
+                {
+                    int difference = oldTransaction.PurchaseQuantity - newTransaction.PurchaseQuantity;
+                    if (difference > product.Quantity)
+                        return BadRequest($"There are only {product.Quantity} left in stock.");
+                    
+                    product.Quantity += difference;
+
+                    oldTransaction.ProductId = newTransaction.ProductId;
+                    oldTransaction.CustomerId = newTransaction.CustomerId;
+                    oldTransaction.PurchaseQuantity = newTransaction.PurchaseQuantity;
+
+                    await _context.SaveChangesAsync();
+                    return Ok(oldTransaction);
+                }
+
+                return NotFound();
+            }
+
+            return BadRequest(ModelState);
+        }
+
+        [HttpDelete]
+        public async Task<IHttpActionResult> DeleteTransaction([FromUri] int id)
+        {
+            Transaction transaction = await _context.Transactions.FindAsync(id);
+
+            if (transaction == null)
+            {
+                return NotFound();
+            }
+
+            _context.Transactions.Remove(transaction);
+            await _context.SaveChangesAsync();
+            return Ok();
+        }
+
     }
 }

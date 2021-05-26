@@ -66,11 +66,11 @@ namespace _12_GeneralStore.Controllers
                 return NotFound();
             }
 
-            return BadRequest();
+            return BadRequest(ModelState);
         }
 
         [HttpDelete]
-        public async Task<IHttpActionResult> DeleteCustomer(int id, Customer newCustomer)
+        public async Task<IHttpActionResult> DeleteCustomer([FromUri]int id)
         {
             Customer customer = await _context.Customers.FindAsync(id);
            
