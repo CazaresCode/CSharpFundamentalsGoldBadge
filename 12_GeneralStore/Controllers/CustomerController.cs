@@ -46,5 +46,42 @@ namespace _12_GeneralStore.Controllers
 
             return Ok(customer);
         }
+      
+        [HttpPut]
+        public async Task<IHttpActionResult> UpdateCustomer([FromUri] int id, [FromBody]Customer newCustomer)
+        {
+            if (ModelState.IsValid)
+            {
+                Customer oldCustomer = await _context.Customers.FindAsync(id);
+
+                if (oldCustomer != null)
+                {
+                    oldCustomer.FirstName = newCustomer.FirstName;
+                    oldCustomer.LastName = newCustomer.LastName;
+
+                    await _context.SaveChangesAsync();
+                    return Ok(oldCustomer);
+                }
+
+                return NotFound();
+            }
+
+            return BadRequest();
+        }
+
+        [HttpDelete]
+        public async Task<IHttpActionResult> DeleteCustomer(int id, Customer newCustomer)
+        {
+            Customer customer = await _context.Customers.FindAsync(id);
+           
+            if (customer == null)
+            {
+                return NotFound();
+            }
+
+            _context.Customers.Remove(customer);
+            await _context.SaveChangesAsync();
+            return Ok($"You successfully deleted {customer.FirstName} {customer.LastName}.");
+        }
     }
 }

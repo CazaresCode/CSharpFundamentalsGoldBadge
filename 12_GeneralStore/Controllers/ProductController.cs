@@ -48,27 +48,42 @@ namespace _12_GeneralStore.Controllers
         }
 
         [HttpPut]
-        public async Task<IHttpActionResult> UpdateProduct(int id, Product updatedProduct)
+        public async Task<IHttpActionResult> UpdateProduct([FromUri] int id,[FromBody] Product newProduct)
         {
             if (ModelState.IsValid)
             {
-                Product product = await _context.Products.FindAsync(id);
+                Product oldProduct = await _context.Products.FindAsync(id);
 
-                if (product!= null)
+                if (oldProduct != null)
                 {
-                    product.Name = updatedProduct.Name;
-                    product.Price = updatedProduct.Price;
-                    product.UPC = updatedProduct.UPC;
-                    product.Quantity = updatedProduct.Quantity;
+                    oldProduct.Name = newProduct.Name;
+                    oldProduct.Price = newProduct.Price;
+                    oldProduct.UPC = newProduct.UPC;
+                    oldProduct.Quantity = newProduct.Quantity;
 
                     await _context.SaveChangesAsync();
-                    return Ok();
+                    return Ok(oldProduct);
                 }
 
                 return NotFound();
             }
 
             return BadRequest();
+        }
+
+        [HttpDelete]
+        public async Task<IHttpActionResult> DeleteProduct([FromUri] int id)
+        {
+            Product product = await _context.Products.FindAsync(id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            return Ok($"The {product.Name} was successfully deleted.");
         }
     }
 }
