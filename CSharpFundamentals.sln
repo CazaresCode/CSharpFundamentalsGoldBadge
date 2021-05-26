@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Async", "10_Async\10_Asy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_APIs", "11_API\11_APIs.csproj", "{50491956-D0E0-4AB5-9103-341B7D4598F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_GeneralStore", "12_GeneralStore\12_GeneralStore.csproj", "{66C476C7-BC12-45AB-B477-30BA64F6D140}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{50491956-D0E0-4AB5-9103-341B7D4598F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50491956-D0E0-4AB5-9103-341B7D4598F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50491956-D0E0-4AB5-9103-341B7D4598F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C476C7-BC12-45AB-B477-30BA64F6D140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C476C7-BC12-45AB-B477-30BA64F6D140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C476C7-BC12-45AB-B477-30BA64F6D140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C476C7-BC12-45AB-B477-30BA64F6D140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
